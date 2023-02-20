@@ -2,6 +2,11 @@
 <html lang="en">
 <head>
   <title>Plants</title>
+  <style>
+    #plants.img-thumbnail {
+    background-color: red;
+    }
+  </style>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
@@ -40,5 +45,19 @@
   and when we decraese the browser size, screen goes into less resolution and Plants breaks first. 
   And for col-sm the size is should be >=576px, so it doesnot break at first, 
   if we further decrease the size it breaks</p>
+  <br>
+  <h3>Responsive</h3>
+  <div class = "container">
+    <img src = "panicum virgatum.jpg" class="img-fluid" alt="Responsive image" >
+    <img src = "acacia.jpg" class="img-fluid" alt="Responsive image">
+    <img src = "NeoLitsea.jpg" class="img-fluid" alt="Responsive image">
+  </div>
+  <br>
+  <h3>Thumbnail</h3>
+  <div class = "container"></div>
+    <img src = "panicum virgatum.jpg" class="img-thumbnail" alt="Thumbnail image" id ="plants">
+    <img src = "acacia.jpg" class="img-thumbnail" alt="Thumbnail image" id ="plants">
+    <img src = "NeoLitsea.jpg" class="img-thumbnail" alt="Thumbnail image" id ="plants">
 </body>
+
 </html>
